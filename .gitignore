@@ -38,7 +38,6 @@ Cargo.lock
 # WEBASSEMBLY
 # =========================
 
-*.wasm
 
 # Si NO querés subir Pyodide completo
 pyodide/
