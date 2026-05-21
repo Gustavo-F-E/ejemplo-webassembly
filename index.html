@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pyodide Local</title>
+  <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+
+<body>
+
+  <h1>Python local WASM</h1>
+
+  <input type="number" id="a" placeholder="Número A">
+  <input type="number" id="b" placeholder="Número B">
+
+  <button onclick="sumar()">Sumar</button>
+
+  <div id="resultado"></div>
+
+    <h1>Rust local WASM</h1>
+    
+    <input type="number" id="aRust" placeholder="Número A">
+    <input type="number" id="bRust" placeholder="Número B">
+    
+    <button onclick="sumarRust()">Sumar</button>
+    
+    <div id="resultadoRust"></div>
+
+  <script type="module" src="./python.js"></script>
+  <script type="module" src="./rust.js"></script>
+
+</body>
+
+</html>
