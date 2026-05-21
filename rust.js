@@ -2,9 +2,8 @@ let wasm;
 
 async function init() {
 
-  const response = await fetch(
-    "./hello-wasm/target/wasm32-unknown-unknown/debug/hello_wasm.wasm"
-  );
+  //const response = await fetch("./hello-wasm/target/wasm32-unknown-unknown/debug/hello_wasm.wasm");
+  const response = await fetch("./wasm/hello_wasm.wasm");
 
   const bytes = await response.arrayBuffer();
 
